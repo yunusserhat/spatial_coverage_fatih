@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Spatial coverage of open street-level imagery in Fatih, Istanbul"
+type: software
+authors:
+  - family-names: "Bıçakçı"
+    given-names: "Yunus Serhat"
+    affiliation: "Marmara University"
+repository-code: "https://github.com/yunusserhat/spatial_coverage_fatih"
+license: GPL-3.0-or-later
+date-released: 2026-09-22
+keywords:
+  - street-level imagery
+  - spatial coverage
+  - OpenStreetMap
+  - Mapillary
+  - GeoAI
+references:
+  - type: dataset
+    title: "fatih"
+    authors:
+      - family-names: "Bıçakçı"
+        given-names: "Yunus Serhat"
+    year: 2026
+    doi: "10.57967/hf/10144"
+    publisher:
+      name: "Hugging Face"

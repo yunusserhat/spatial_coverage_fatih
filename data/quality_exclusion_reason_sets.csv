@@ -1,0 +1,42 @@
+documented_issue_set,excluded_images,share_of_explicit_exclusions_pct
+"[""blur"", ""partial_view""]",3795,53.300561797752806
+"[""blur""]",917,12.879213483146067
+"[""blur"", ""overexposure""]",714,10.02808988764045
+"[""overexposure""]",462,6.48876404494382
+"[""blur"", ""overexposure"", ""partial_view""]",414,5.814606741573034
+"[""blur"", ""occlusion""]",266,3.735955056179775
+"[""overexposure"", ""partial_view""]",151,2.1207865168539324
+"[""blur"", ""partial_view"", ""underexposure""]",105,1.4747191011235956
+"[""partial_view""]",70,0.9831460674157303
+"[""blur"", ""occlusion"", ""partial_view""]",49,0.6882022471910112
+"[""partial_view"", ""underexposure""]",30,0.42134831460674155
+"[""blur"", ""occlusion"", ""overexposure"", ""partial_view""]",23,0.32303370786516855
+"[""blur"", ""motion_artifacts""]",16,0.2247191011235955
+"[""occlusion"", ""partial_view""]",16,0.2247191011235955
+"[""blur"", ""partial_view"", ""reflection""]",15,0.21067415730337077
+"[""blur"", ""underexposure""]",13,0.18258426966292135
+"[""blur"", ""none""]",10,0.1404494382022472
+"[""blur"", ""occlusion"", ""overexposure""]",7,0.09831460674157304
+"[""blur"", ""occlusion"", ""underexposure""]",7,0.09831460674157304
+"[""blur"", ""motion"", ""overexposure""]",4,0.056179775280898875
+"[""blur"", ""motion"", ""partial_view""]",4,0.056179775280898875
+"[""blur"", ""none"", ""occlusion""]",4,0.056179775280898875
+"[""blur"", ""overexposure"", ""partial_view"", ""underexposure""]",3,0.042134831460674156
+"[""none"", ""partial_view""]",3,0.042134831460674156
+"[""blur"", ""low_light"", ""motion""]",2,0.028089887640449437
+"[""blur"", ""motion_artifact""]",2,0.028089887640449437
+"[""blur"", ""motion_blur""]",2,0.028089887640449437
+"[""blur"", ""none"", ""partial_view""]",2,0.028089887640449437
+"[""occlusion"", ""overexposure"", ""partial_view""]",2,0.028089887640449437
+"[""blur"", ""low_contrast"", ""motion_artifacts""]",1,0.014044943820224719
+"[""blur"", ""motion""]",1,0.014044943820224719
+"[""blur"", ""motion_artifact"", ""overexposure""]",1,0.014044943820224719
+"[""blur"", ""motion_artifact"", ""partial_view""]",1,0.014044943820224719
+"[""blur"", ""none"", ""occlusion"", ""overexposure"", ""partial_view"", ""underexposure""]",1,0.014044943820224719
+"[""blur"", ""occlusion"", ""partial_view"", ""underexposure""]",1,0.014044943820224719
+"[""blur"", ""partial_view"", ""raindrops""]",1,0.014044943820224719
+"[""low_light"", ""partial_view"", ""reflection""]",1,0.014044943820224719
+"[""none""]",1,0.014044943820224719
+"[""occlusion"", ""partial_view"", ""underexposure""]",1,0.014044943820224719
+"[""occlusion""]",1,0.014044943820224719
+"[""partial_view"", ""unknown""]",1,0.014044943820224719

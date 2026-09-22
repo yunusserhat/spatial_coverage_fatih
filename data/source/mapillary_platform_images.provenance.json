@@ -1,0 +1,22 @@
+{
+  "tileset": "mly1_public",
+  "zoom": 14,
+  "tiles": [
+    9508,
+    9511,
+    6140,
+    6143
+  ],
+  "retrieved_utc": "2026-09-22T18:35:15+00:00",
+  "records_in_boundary": 124033,
+  "fields": [
+    "image_id",
+    "lon",
+    "lat",
+    "captured_at",
+    "compass_angle",
+    "is_pano",
+    "sequence_id"
+  ],
+  "note": "Contributor identifiers were not stored."
+}

@@ -1,0 +1,88 @@
+{
+  "analysis_run_utc": "2026-09-17T07:14:58.157423+00:00",
+  "crs": {
+    "geographic": "EPSG:4326",
+    "projected": "EPSG:32635",
+    "projected_name": "WGS 84 / UTM zone 35N",
+    "projected_area_of_use": "- name: Between 24°E and 30°E, northern hemisphere between equator and 84°N, onshore and offshore. Belarus. Bulgaria. Central African Republic. Democratic Republic of the Congo (Zaire). Egypt. Estonia. Finland. Greece. Latvia. Lesotho. Libya. Lithuania. Moldova. Norway. Poland. Romania. Russian Federation. Sudan. Svalbard. Türkiye (Turkey). Uganda. Ukraine.\n- bounds: (24.0, 0.0, 30.0, 84.0)"
+  },
+  "hugging_face_dataset": {
+    "id": "yunusserhat/fatih",
+    "revision": "250dbb1efb580653b98d153dbc77341555d5a258",
+    "manifest_url": "https://huggingface.co/datasets/yunusserhat/fatih/resolve/250dbb1efb580653b98d153dbc77341555d5a258/data/raw/manifest/train.parquet",
+    "manifest_sha256_expected": "75d8f360637e4f8a0411a162ec385d86569f772f95c7ada64d173c5597f75927",
+    "manifest_sha256_observed": "75d8f360637e4f8a0411a162ec385d86569f772f95c7ada64d173c5597f75927",
+    "manifest_bytes": 94724605,
+    "license_declared_by_dataset": "CC BY-SA 4.0"
+  },
+  "existing_quality_filter": {
+    "source_layer": "descriptions/geoai/v1",
+    "source_file_sha256": "bb5392af402757bb7b93fc1c19a5850e724c6473cd07f3455969672342634576",
+    "source_file": "geoai_quality_labels.parquet",
+    "main_analysis_rule": "Include only records with existing usable=true labels.",
+    "unknown_quality_rule": "Do not classify missing labels. Exclude them from the confirmed-usable analytical cohort.",
+    "summary": {
+      "quality_label_layer": "descriptions/geoai/v1",
+      "quality_label_records": 123593,
+      "quality_label_unique_image_ids": 123593,
+      "confirmed_usable_records": 116473,
+      "explicitly_excluded_records": 7120,
+      "quality_unknown_records": 314,
+      "direct_and_nested_usable_disagreement": 0,
+      "quality_parse_status_counts": {
+        "parsed": 123593,
+        "no_quality_label": 314
+      },
+      "explicit_exclusion_reason_set_count": 41
+    }
+  },
+  "fatih_boundary": {
+    "source": "Nominatim lookup for OpenStreetMap relation",
+    "relation_id": 1766104,
+    "display_name": "Fatih, İstanbul, Marmara Bölgesi, Türkiye",
+    "source_sha256": "022f93529c5a5ebee9228bdae249e5d2ab56307be63ba77e2e13b9f15a6b774e"
+  },
+  "openstreetmap_network": {
+    "source": "Overpass API",
+    "osm_snapshot_utc": "2026-09-17T06:12:46Z",
+    "source_sha256": "a1170aeb28f75512974a93c7d404211e4386a42a11a06173107fc4b9e354174d",
+    "network_filter": [
+      "living_street",
+      "motorway",
+      "motorway_link",
+      "pedestrian",
+      "primary",
+      "primary_link",
+      "residential",
+      "road",
+      "secondary",
+      "secondary_link",
+      "service",
+      "tertiary",
+      "tertiary_link",
+      "trunk",
+      "trunk_link",
+      "unclassified"
+    ],
+    "excluded_access_values": [
+      "no",
+      "private"
+    ],
+    "excluded_service_values": [
+      "drive-through",
+      "driveway",
+      "emergency_access",
+      "parking",
+      "parking_aisle"
+    ],
+    "license": "Open Database License 1.0 as stated by the Overpass response"
+  },
+  "parameters": {
+    "grid_size_m": 500.0,
+    "primary_match_threshold_m": 20.0,
+    "primary_local_coverage_distance_m": 25.0,
+    "street_unit_length_m": 10.0,
+    "covered_unit_minimum_fraction": 0.5,
+    "near_tie_margin_m": 2.0
+  }
+}

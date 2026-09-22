@@ -1,0 +1,295 @@
+{
+  "primary_covered_km": 185.61019081234974,
+  "road_classes": [
+    {
+      "road_class": "Major roads",
+      "eligible_km": 91.89032110704906,
+      "network_share_pct": 20.72387576730843,
+      "matched_images": 53283,
+      "image_share_pct": 50.37914602322151,
+      "covered_km": 78.5222042960325,
+      "coverage_pct": 85.45209479087231,
+      "images_per_covered_km": 678.5723920729546
+    },
+    {
+      "road_class": "Tertiary roads",
+      "eligible_km": 40.959168904464626,
+      "network_share_pct": 9.23745523665617,
+      "matched_images": 12777,
+      "image_share_pct": 12.080670171324837,
+      "covered_km": 26.796911805676515,
+      "coverage_pct": 65.42347543276348,
+      "images_per_covered_km": 476.80867454634785
+    },
+    {
+      "road_class": "Residential and local streets",
+      "eligible_km": 244.7123302933128,
+      "network_share_pct": 55.18957677620006,
+      "matched_images": 23881,
+      "image_share_pct": 22.57951665973299,
+      "covered_km": 58.74107759659711,
+      "coverage_pct": 24.004134783968553,
+      "images_per_covered_km": 406.54684893597243
+    },
+    {
+      "road_class": "Service roads",
+      "eligible_km": 22.675575469772784,
+      "network_share_pct": 5.113985927205003,
+      "matched_images": 2031,
+      "image_share_pct": 1.920313150032147,
+      "covered_km": 5.008761177603422,
+      "coverage_pct": 22.088794104829883,
+      "images_per_covered_km": 405.4894869177586
+    },
+    {
+      "road_class": "Pedestrian streets",
+      "eligible_km": 43.1657694383698,
+      "network_share_pct": 9.735106292630329,
+      "matched_images": 13792,
+      "image_share_pct": 13.040353995688514,
+      "covered_km": 16.541235936440195,
+      "coverage_pct": 38.32026198457333,
+      "images_per_covered_km": 833.7950110255273
+    },
+    {
+      "road_class": "All eligible streets",
+      "eligible_km": 443.40316521296904,
+      "network_share_pct": 100.0,
+      "matched_images": 105764,
+      "image_share_pct": 100.0,
+      "covered_km": 185.6101908123497,
+      "coverage_pct": 41.860366676273074,
+      "images_per_covered_km": 569.8178507177253
+    }
+  ],
+  "saturation_mean_coverage_pct": {
+    "0.01": 3.844656380134495,
+    "0.025": 8.782479052834676,
+    "0.05": 15.3454970962186,
+    "0.1": 23.90352933703057,
+    "0.2": 32.32490481459105,
+    "0.3": 35.99660860432506,
+    "0.4": 38.11010901947235,
+    "0.5": 39.372495000441106,
+    "0.6": 40.346587692546336,
+    "0.7": 40.88909316750968,
+    "0.8": 41.306757704025536,
+    "0.9": 41.62397071973535,
+    "1.0": 41.86036667627308
+  },
+  "saturation_range_pct": {
+    "0.01": [
+      3.7058715800320754,
+      4.055428758946785
+    ],
+    "0.025": [
+      8.55492776726749,
+      9.140401728371181
+    ],
+    "0.05": [
+      15.180947952795517,
+      15.500198280387725
+    ],
+    "0.1": [
+      23.580357059269225,
+      24.139203378436793
+    ],
+    "0.2": [
+      31.877158831011215,
+      32.7095183427162
+    ],
+    "0.3": [
+      35.7215293774852,
+      36.23161240252543
+    ],
+    "0.4": [
+      37.84225365990706,
+      38.427052955346916
+    ],
+    "0.5": [
+      39.17384611903143,
+      39.545106129495224
+    ],
+    "0.6": [
+      40.19740480117948,
+      40.51723685949702
+    ],
+    "0.7": [
+      40.76365635749934,
+      41.0000513930184
+    ],
+    "0.8": [
+      41.225174582570276,
+      41.484200220774426
+    ],
+    "0.9": [
+      41.515060372144276,
+      41.70562514190862
+    ],
+    "1.0": [
+      41.86036667627308,
+      41.86036667627308
+    ]
+  },
+  "temporal_cumulative": [
+    {
+      "capture_year": 2009,
+      "images_in_year": 5,
+      "cumulative_images": 5,
+      "cumulative_covered_km": 0.11063483198660966,
+      "cumulative_coverage_pct": 0.02495129504397451
+    },
+    {
+      "capture_year": 2010,
+      "images_in_year": 0,
+      "cumulative_images": 5,
+      "cumulative_covered_km": 0.11063483198660966,
+      "cumulative_coverage_pct": 0.02495129504397451
+    },
+    {
+      "capture_year": 2011,
+      "images_in_year": 0,
+      "cumulative_images": 5,
+      "cumulative_covered_km": 0.11063483198660966,
+      "cumulative_coverage_pct": 0.02495129504397451
+    },
+    {
+      "capture_year": 2012,
+      "images_in_year": 0,
+      "cumulative_images": 5,
+      "cumulative_covered_km": 0.11063483198660966,
+      "cumulative_coverage_pct": 0.02495129504397451
+    },
+    {
+      "capture_year": 2013,
+      "images_in_year": 103,
+      "cumulative_images": 108,
+      "cumulative_covered_km": 0.883836098554569,
+      "cumulative_coverage_pct": 0.1993301284013292
+    },
+    {
+      "capture_year": 2014,
+      "images_in_year": 0,
+      "cumulative_images": 108,
+      "cumulative_covered_km": 0.883836098554569,
+      "cumulative_coverage_pct": 0.1993301284013292
+    },
+    {
+      "capture_year": 2015,
+      "images_in_year": 393,
+      "cumulative_images": 501,
+      "cumulative_covered_km": 2.1786558217187793,
+      "cumulative_coverage_pct": 0.4913487301499886
+    },
+    {
+      "capture_year": 2016,
+      "images_in_year": 222,
+      "cumulative_images": 723,
+      "cumulative_covered_km": 5.427638959505406,
+      "cumulative_coverage_pct": 1.22408665190707
+    },
+    {
+      "capture_year": 2017,
+      "images_in_year": 2480,
+      "cumulative_images": 3203,
+      "cumulative_covered_km": 16.35504663844337,
+      "cumulative_coverage_pct": 3.688527264027975
+    },
+    {
+      "capture_year": 2018,
+      "images_in_year": 14306,
+      "cumulative_images": 17509,
+      "cumulative_covered_km": 53.74801189713209,
+      "cumulative_coverage_pct": 12.121702349895632
+    },
+    {
+      "capture_year": 2019,
+      "images_in_year": 78115,
+      "cumulative_images": 95624,
+      "cumulative_covered_km": 179.29849795243703,
+      "cumulative_coverage_pct": 40.43690077546446
+    },
+    {
+      "capture_year": 2020,
+      "images_in_year": 7678,
+      "cumulative_images": 103302,
+      "cumulative_covered_km": 182.58310569454184,
+      "cumulative_coverage_pct": 41.17767305671942
+    },
+    {
+      "capture_year": 2021,
+      "images_in_year": 868,
+      "cumulative_images": 104170,
+      "cumulative_covered_km": 183.5085166280413,
+      "cumulative_coverage_pct": 41.386379490525535
+    },
+    {
+      "capture_year": 2022,
+      "images_in_year": 321,
+      "cumulative_images": 104491,
+      "cumulative_covered_km": 184.06745161876225,
+      "cumulative_coverage_pct": 41.51243519661246
+    },
+    {
+      "capture_year": 2023,
+      "images_in_year": 170,
+      "cumulative_images": 104661,
+      "cumulative_covered_km": 184.11466473058735,
+      "cumulative_coverage_pct": 41.52308309349936
+    },
+    {
+      "capture_year": 2024,
+      "images_in_year": 958,
+      "cumulative_images": 105619,
+      "cumulative_covered_km": 185.4045007835308,
+      "cumulative_coverage_pct": 41.81397773614899
+    },
+    {
+      "capture_year": 2025,
+      "images_in_year": 145,
+      "cumulative_images": 105764,
+      "cumulative_covered_km": 185.61019081234974,
+      "cumulative_coverage_pct": 41.86036667627308
+    }
+  ],
+  "temporal_periods": [
+    {
+      "period": "2009 to 2019",
+      "matched_images": 95624,
+      "covered_km": 179.29849795243703,
+      "coverage_pct": 40.43690077546446
+    },
+    {
+      "period": "2020 to 2025",
+      "matched_images": 10140,
+      "covered_km": 28.29313926823692,
+      "coverage_pct": 6.380906021419032
+    },
+    {
+      "period": "2023 to 2025",
+      "matched_images": 1273,
+      "covered_km": 7.279810413796572,
+      "coverage_pct": 1.6418038897625005
+    },
+    {
+      "period": "2025 only",
+      "matched_images": 145,
+      "covered_km": 2.488980921288853,
+      "coverage_pct": 0.5613358488529014
+    }
+  ],
+  "concentration": {
+    "occupied_10m_bins": 17708,
+    "bins_holding_half_of_images": 3156,
+    "bins_holding_half_of_images_pct": 17.822453128529478,
+    "max_images_in_one_bin": 132,
+    "median_images_per_occupied_bin": 4.0,
+    "gini_images_per_occupied_bin": 0.4829732311772176,
+    "matched_sequences": 1226,
+    "top_decile_sequences": 123,
+    "top_decile_sequence_image_share_pct": 40.060890284028595,
+    "largest_sequence_images": 1115
+  },
+  "random_seed": 20260922,
+  "subsample_repeats": 10
+}

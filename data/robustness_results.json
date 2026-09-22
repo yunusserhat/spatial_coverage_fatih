@@ -1,0 +1,325 @@
+{
+  "direction": {
+    "computed_compass_angle": {
+      "valid_heading_share_pct": 100.0,
+      "along_street_share_pct": 81.57123406830301,
+      "panoramic_images": 359,
+      "retained_images": 86324,
+      "covered_km": 172.39961945517712,
+      "coverage_pct": 38.881007845844444
+    },
+    "compass_angle": {
+      "valid_heading_share_pct": 99.9073408721304,
+      "along_street_share_pct": 79.84096668053402,
+      "panoramic_images": 359,
+      "retained_images": 84608,
+      "covered_km": 170.4083844873494,
+      "coverage_pct": 38.43192783829166
+    }
+  },
+  "robustness": [
+    {
+      "analysis": "Mapillary platform, all public images",
+      "images": 124033,
+      "images_not_in_manifest": 248,
+      "matched_images": 111838,
+      "covered_km": 187.83010808456032,
+      "coverage_pct": 42.36102103473809
+    },
+    {
+      "analysis": "Mapillary platform, captured by 17 August 2025",
+      "images": 124032,
+      "images_not_in_manifest": 248,
+      "matched_images": 111837,
+      "covered_km": 187.83010808456032,
+      "coverage_pct": 42.36102103473809
+    },
+    {
+      "analysis": "Along-street or panoramic views only",
+      "images": 105764,
+      "matched_images": 86324,
+      "covered_km": 172.39961945517712,
+      "coverage_pct": 38.881007845844444
+    },
+    {
+      "analysis": "End-of-2019 OpenStreetMap network",
+      "network_km": 435.91915644400535,
+      "matched_images": 106249,
+      "covered_km": 181.71487641212988,
+      "coverage_pct": 41.68545330617318
+    }
+  ],
+  "neighbourhoods": {
+    "count": 57,
+    "area_km2_total": 16.2460443410022,
+    "eligible_km_total": 447.43917074541054,
+    "median_coverage_pct": 40.92862256088481,
+    "p25_coverage_pct": 27.805183317897157,
+    "p75_coverage_pct": 54.217568777702965,
+    "min": [
+      "Mimar Hayrettin",
+      3.8401608416159445
+    ],
+    "max": [
+      "Rüstempaşa",
+      84.10718502427167
+    ],
+    "below_30_pct": 19,
+    "above_60_pct": 11,
+    "spearman_density_coverage": [
+      0.7939460720767436,
+      1.737255975941203e-13
+    ],
+    "spearman_images_per_km_coverage": [
+      0.8203914959813328,
+      5.763107235693008e-15
+    ],
+    "lowest_five": [
+      [
+        "Mimar Hayrettin",
+        3.8401608416159445,
+        1383.7399214766488
+      ],
+      [
+        "Saraç İshak",
+        5.336349877438786,
+        1251.9613283378649
+      ],
+      [
+        "Sururi",
+        11.565456387599408,
+        2812.485103931931
+      ],
+      [
+        "Emin Sinan",
+        13.114197057847171,
+        1786.667921776469
+      ],
+      [
+        "Silivrikapı",
+        16.4749249726126,
+        2551.2865467756183
+      ]
+    ],
+    "highest_five": [
+      [
+        "Cankurtaran",
+        72.4173639776934,
+        9984.659481515931
+      ],
+      [
+        "Tahtakale",
+        74.53891278018006,
+        31771.961196862347
+      ],
+      [
+        "Sarıdemir",
+        76.09968862745852,
+        43036.02682355905
+      ],
+      [
+        "Hocapaşa",
+        77.8679516400993,
+        11875.953999852316
+      ],
+      [
+        "Rüstempaşa",
+        84.10718502427167,
+        46635.38500274478
+      ]
+    ],
+    "top_density_five": [
+      [
+        "Rüstempaşa",
+        84.10718502427167,
+        46635.38500274478
+      ],
+      [
+        "Sarıdemir",
+        76.09968862745852,
+        43036.02682355905
+      ],
+      [
+        "Tahtakale",
+        74.53891278018006,
+        31771.961196862347
+      ],
+      [
+        "Hobyar",
+        63.606843958816114,
+        24254.68512817519
+      ],
+      [
+        "Yavuz Sinan",
+        47.06096404767091,
+        16563.654387532846
+      ]
+    ]
+  },
+  "grid_sizes": [
+    {
+      "grid_size_m": 250.0,
+      "cells_with_streets": 287,
+      "median_coverage_pct": 44.525623236546195,
+      "p25_coverage_pct": 23.09683031260196,
+      "p75_coverage_pct": 66.6282807970836,
+      "cells_with_at_least_1km": 220,
+      "median_coverage_pct_cells_1km": 41.04013081813609
+    },
+    {
+      "grid_size_m": 500.0,
+      "cells_with_streets": 86,
+      "median_coverage_pct": 47.76555178788893,
+      "p25_coverage_pct": 32.104054699256665,
+      "p75_coverage_pct": 65.84642385778626,
+      "cells_with_at_least_1km": 75,
+      "median_coverage_pct_cells_1km": 46.01328810890477
+    },
+    {
+      "grid_size_m": 1000.0,
+      "cells_with_streets": 30,
+      "median_coverage_pct": 45.89405859976618,
+      "p25_coverage_pct": 36.586710753133076,
+      "p75_coverage_pct": 66.60923108131774,
+      "cells_with_at_least_1km": 26,
+      "median_coverage_pct_cells_1km": 44.04255748496892
+    }
+  ],
+  "betweenness": {
+    "classes": [
+      {
+        "betweenness_class": 1,
+        "eligible_km": 88.4260136621703,
+        "covered_km": 21.695361853623503,
+        "coverage_pct": 24.53504455884461
+      },
+      {
+        "betweenness_class": 2,
+        "eligible_km": 88.68326997285759,
+        "covered_km": 26.957499957028045,
+        "coverage_pct": 30.397503345646438
+      },
+      {
+        "betweenness_class": 3,
+        "eligible_km": 88.51745508160452,
+        "covered_km": 31.36510335512468,
+        "coverage_pct": 35.433806051257456
+      },
+      {
+        "betweenness_class": 4,
+        "eligible_km": 88.61837331778935,
+        "covered_km": 42.898873259064025,
+        "coverage_pct": 48.40855417784165
+      },
+      {
+        "betweenness_class": 5,
+        "eligible_km": 88.56128296410529,
+        "covered_km": 62.69335238750949,
+        "coverage_pct": 70.79092611262158
+      }
+    ],
+    "length_share_classified_pct": 99.86541137699022,
+    "sample_nodes": 1500
+  },
+  "sequence_curve": [
+    {
+      "sequence_fraction": 0.05,
+      "image_share_pct_mean": 5.219,
+      "image_share_pct_min": 3.783,
+      "image_share_pct_max": 6.289,
+      "coverage_pct_mean": 5.341,
+      "coverage_pct_min": 3.508,
+      "coverage_pct_max": 6.757
+    },
+    {
+      "sequence_fraction": 0.1,
+      "image_share_pct_mean": 10.255,
+      "image_share_pct_min": 7.999,
+      "image_share_pct_max": 13.762,
+      "coverage_pct_mean": 9.086,
+      "coverage_pct_min": 6.617,
+      "coverage_pct_max": 11.6
+    },
+    {
+      "sequence_fraction": 0.2,
+      "image_share_pct_mean": 20.067,
+      "image_share_pct_min": 17.395,
+      "image_share_pct_max": 23.148,
+      "coverage_pct_mean": 15.504,
+      "coverage_pct_min": 13.084,
+      "coverage_pct_max": 17.795
+    },
+    {
+      "sequence_fraction": 0.3,
+      "image_share_pct_mean": 30.122,
+      "image_share_pct_min": 26.231,
+      "image_share_pct_max": 33.66,
+      "coverage_pct_mean": 20.249,
+      "coverage_pct_min": 17.521,
+      "coverage_pct_max": 22.361
+    },
+    {
+      "sequence_fraction": 0.4,
+      "image_share_pct_mean": 40.093,
+      "image_share_pct_min": 34.238,
+      "image_share_pct_max": 43.59,
+      "coverage_pct_mean": 24.558,
+      "coverage_pct_min": 21.626,
+      "coverage_pct_max": 26.082
+    },
+    {
+      "sequence_fraction": 0.5,
+      "image_share_pct_mean": 49.771,
+      "image_share_pct_min": 43.659,
+      "image_share_pct_max": 53.697,
+      "coverage_pct_mean": 28.575,
+      "coverage_pct_min": 25.867,
+      "coverage_pct_max": 30.119
+    },
+    {
+      "sequence_fraction": 0.6,
+      "image_share_pct_mean": 59.571,
+      "image_share_pct_min": 54.726,
+      "image_share_pct_max": 64.2,
+      "coverage_pct_mean": 31.675,
+      "coverage_pct_min": 28.582,
+      "coverage_pct_max": 34.006
+    },
+    {
+      "sequence_fraction": 0.7,
+      "image_share_pct_mean": 69.41,
+      "image_share_pct_min": 65.561,
+      "image_share_pct_max": 74.553,
+      "coverage_pct_mean": 34.229,
+      "coverage_pct_min": 31.744,
+      "coverage_pct_max": 36.794
+    },
+    {
+      "sequence_fraction": 0.8,
+      "image_share_pct_mean": 79.843,
+      "image_share_pct_min": 76.882,
+      "image_share_pct_max": 83.125,
+      "coverage_pct_mean": 37.328,
+      "coverage_pct_min": 36.308,
+      "coverage_pct_max": 38.718
+    },
+    {
+      "sequence_fraction": 0.9,
+      "image_share_pct_mean": 90.369,
+      "image_share_pct_min": 88.806,
+      "image_share_pct_max": 91.584,
+      "coverage_pct_mean": 39.748,
+      "coverage_pct_min": 38.07,
+      "coverage_pct_max": 40.638
+    },
+    {
+      "sequence_fraction": 1.0,
+      "image_share_pct_mean": 100.0,
+      "image_share_pct_min": 100.0,
+      "image_share_pct_max": 100.0,
+      "coverage_pct_mean": 41.86,
+      "coverage_pct_min": 41.86,
+      "coverage_pct_max": 41.86
+    }
+  ]
+}

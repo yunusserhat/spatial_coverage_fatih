@@ -1,0 +1,13 @@
+# Limitations
+
+- This study measures location-based coverage of the analysed `yunusserhat/fatih` manifest. It does not measure all imagery on Mapillary or any other street-imagery platform.
+- Image coordinates alone do not establish camera direction, field of view, visibility, visual quality, temporal representativeness, or whether a street scene was actually visible from a matched location.
+- The confirmed-usable cohort follows the repository's existing GeoAI `usable` field. The README says these annotations are model-generated and not human-verified ground truth. The 314 records without that label remain quality-unknown and are excluded from the confirmed-usable cohort without being classed as poor quality. This conservative rule can reduce estimated spatial support.
+- Existing issue labels can be multi-valued and do not behave as a new deterministic threshold. Some usable images also retain issue words. The analysis preserves the repository's explicit usability decision and does not reinterpret individual words such as blur or partial view.
+- The collection spans 2009-08-20 to 2025-08-17. It is temporally heterogeneous.
+- The current OSM Fatih boundary and street network were retrieved after the dataset build. The dataset card says it used an OSM boundary but does not record the original relation version or retrieval date. Boundary-based exclusions are therefore reported against the cached current source, not assumed to recreate the original filter exactly.
+- The computed coordinate fields differ from primary `lon` and `lat` for some records, and their provenance is undocumented in the dataset card. The analysis uses the documented primary pair and retains the alternative fields for audit.
+- Nearest-line matching is ambiguous around intersections, parallel roads, bridges, and closely spaced ways. The package records near-tie diagnostics, applies a deterministic tie rule, and reports a conservative near-tie exclusion result. Coordinates do not resolve vertical separation or road-level assignment.
+- The eligible network is an operational OSM definition of public streets. OSM tagging completeness and the inclusion or exclusion rules for pedestrian and service streets affect denominators.
+- The regular grid is an analytical reporting unit, not an administrative neighbourhood. No inference about neighbourhood characteristics, contributors, social inequality, or the causes of missing observations is made.
+- OSM is licensed under ODbL. The source dataset card declares CC BY-SA 4.0 and attributes the images to Mapillary. This package redistributes no image bytes.

@@ -1,0 +1,13 @@
+metric,value,unit,definition
+Manifest records,123907,records,Rows in the pinned source manifest.
+Existing GeoAI quality labels,123593,records,Rows in descriptions/geoai/v1 with an existing usable field.
+Confirmed usable,116473,records,Existing usable=true. No additional quality thresholds applied.
+Explicitly excluded,7120,records,Existing usable=false. Exact documented issue sets are in data/quality_exclusion_reason_sets.csv.
+Quality status unknown,314,records,No existing label. Unknown is not treated as usable or unusable.
+Confirmed usable in Fatih used in analysis,116464,records,Confirmed usable image locations inside the current boundary.
+Explicitly excluded in Fatih,7120,records,Existing usable=false locations inside the current boundary.
+Unknown quality in Fatih,201,records,Not included because suitability is not confirmed.
+Duplicate identifier records,0,records,Records beyond the first occurrence of an image_id.
+Missing or invalid primary coordinates,0,records,"lon or lat missing, non-finite, or outside geographic bounds."
+Records at repeated primary coordinates,18989,records,Repeated locations are not duplicate records.
+Capture period,2009-08-20 to 2025-08-17,UTC,Range parsed from captured_at_iso.

@@ -1,0 +1,9 @@
+category,count,definition
+Original manifest image records,123907,All rows in the pinned raw manifest.
+Existing GeoAI quality labels available,123593,Rows with the repository's descriptions/geoai/v1 usable field.
+Confirmed usable,116473,Existing usable=true label. No additional threshold applied.
+Explicitly excluded,7120,Existing usable=false label.
+Quality status unknown,314,No existing GeoAI usability label. Not assumed usable or unusable.
+Confirmed usable in Fatih used in main analysis,116464,Confirmed usable records within the current analysis boundary.
+Explicitly excluded in Fatih,7120,Existing usable=false records within the current analysis boundary.
+Unknown quality in Fatih,201,Not included because suitability is not confirmed.

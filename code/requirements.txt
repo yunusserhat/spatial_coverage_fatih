@@ -1,0 +1,12 @@
+geopandas==1.1.4
+matplotlib==3.11.2
+numpy==2.5.3
+pandas==3.0.5
+pyarrow==25.0.1
+pyogrio==0.13.0
+pyproj==3.8.0
+requests==2.34.2
+shapely==2.1.2
+mapbox-vector-tile==2.2.0
+networkx==3.7
+scipy==1.18.1

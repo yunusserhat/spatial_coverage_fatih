@@ -1,0 +1,483 @@
+{
+  "quality": {
+    "manifest_records": 123907,
+    "manifest_unique_image_ids": 123907,
+    "manifest_missing_image_ids": 0,
+    "manifest_duplicate_identifier_records": 0,
+    "primary_coordinate_missing_or_invalid": 0,
+    "computed_coordinate_missing_or_invalid": 0,
+    "coordinate_fallback_records": 0,
+    "records_without_usable_coordinates": 0,
+    "unique_primary_coordinate_pairs": 111815,
+    "repeated_primary_coordinate_groups": 6897,
+    "records_at_repeated_primary_coordinates": 18989,
+    "maximum_records_at_one_primary_coordinate": 84,
+    "coordinate_disagreement_median_m": 2.218755663536135,
+    "coordinate_disagreement_p95_m": 18.283691726626127,
+    "coordinate_disagreement_max_m": 719.4436736232665,
+    "coordinate_disagreement_gt_20m": 5438,
+    "capture_time_missing": 0,
+    "capture_time_min_utc": "2009-08-20T12:00:00+00:00",
+    "capture_time_max_utc": "2025-08-17T10:22:43+00:00",
+    "capture_date_count": 159,
+    "sequence_count": 1409,
+    "source_exists_true": 123907,
+    "downloaded_status_records": 123907,
+    "quality_label_layer": "descriptions/geoai/v1",
+    "quality_label_records": 123593,
+    "quality_label_unique_image_ids": 123593,
+    "confirmed_usable_records": 116473,
+    "explicitly_excluded_records": 7120,
+    "quality_unknown_records": 314,
+    "direct_and_nested_usable_disagreement": 0,
+    "quality_parse_status_counts": {
+      "parsed": 123593,
+      "no_quality_label": 314
+    },
+    "explicit_exclusion_reason_set_count": 41,
+    "valid_deduplicated_coordinate_records": 123907,
+    "outside_boundary_records": 122,
+    "original_in_boundary_images": 123785,
+    "confirmed_usable_in_boundary_images": 116464,
+    "explicitly_excluded_in_boundary_images": 7120,
+    "quality_unknown_in_boundary_images": 201,
+    "clean_in_boundary_images": 116464,
+    "primary_lon_min": 28.91991555690765,
+    "primary_lon_max": 28.98791491985321,
+    "primary_lat_min": 40.98798099940575,
+    "primary_lat_max": 41.03998608380456
+  },
+  "street_network": {
+    "overpass_way_records": 4267,
+    "eligible_way_records_before_clip": 4078,
+    "excluded_way_records": {
+      "access_no": 15,
+      "access_private": 6,
+      "area_way": 20,
+      "service_driveway": 8,
+      "service_parking_aisle": 140
+    },
+    "short_clipped_parts_excluded": 0,
+    "clipped_line_parts_before_duplicate_removal": 4085,
+    "exact_duplicate_line_parts_removed": 0,
+    "eligible_line_parts": 4085,
+    "eligible_highway_counts": {
+      "living_street": 445,
+      "pedestrian": 576,
+      "primary": 230,
+      "primary_link": 191,
+      "residential": 1846,
+      "secondary": 168,
+      "secondary_link": 23,
+      "service": 268,
+      "tertiary": 252,
+      "tertiary_link": 15,
+      "trunk": 23,
+      "trunk_link": 5,
+      "unclassified": 43
+    },
+    "sum_of_canonical_line_lengths_m": 443403.16521296906,
+    "geometric_network_length_m": 443403.16521296906,
+    "overlap_removed_by_2d_union_m": 0.0
+  },
+  "matching": {
+    "ambiguity_threshold_m": 20.0,
+    "ambiguity_margin_m": 2.0,
+    "ambiguous_match_count": 18454,
+    "endpoint_proximate_match_count": 9400,
+    "ambiguous_relationship_counts": {
+      "closely spaced non-intersecting streets": 44,
+      "intersecting candidate streets": 15896,
+      "separate candidate streets": 2514
+    },
+    "ambiguous_with_bridge_layer_or_tunnel_tag": 1094
+  },
+  "network": {
+    "study_area_km2": 16.24848722329553,
+    "total_network_length_m": 443403.16521296906,
+    "clean_image_count": 116464,
+    "image_density_per_km2": 7167.682652513338,
+    "images_per_km_street": 262.65937895157265,
+    "grid_cell_size_m": 500.0,
+    "grid_cell_count": 94,
+    "grid_cells_with_eligible_street_length": 86
+  },
+  "original_filtered_comparison": {
+    "dataset": "Original valid in-boundary locations",
+    "image_count": 123785,
+    "matched_images": 111611,
+    "match_rate_pct": 90.1652058003797,
+    "covered_length_m": 187757.1483058992,
+    "coverage_pct": 42.34456653364627,
+    "covered_unit_pct": 42.0361823127009
+  },
+  "primary": {
+    "match_threshold_m": 20.0,
+    "local_coverage_distance_m": 25.0,
+    "matched_images": 105764,
+    "unmatched_images": 10700,
+    "match_rate_pct": 90.81261162247561,
+    "covered_length_m": 185610.19081234976,
+    "uncovered_length_m": 257792.9744006193,
+    "coverage_pct": 41.86036667627308,
+    "covered_units": 20170,
+    "total_units": 48532,
+    "covered_unit_pct": 41.560207698013684,
+    "near_tie_matches": 17433,
+    "endpoint_proximate_matches": 8048,
+    "median_match_distance_m": 2.938937968681519,
+    "p95_match_distance_m": 12.445452954554108,
+    "max_match_distance_m": 19.998909288649436,
+    "coverage_interval_count": 2309,
+    "coverage_interval_edge_count": 2117
+  },
+  "sensitivity": [
+    {
+      "analysis": "Match threshold",
+      "setting": "Match ≤10 m, local coverage 25 m",
+      "matched_images": 96350,
+      "covered_length_km": 179.92752064388537,
+      "coverage_pct": 40.578763247543606,
+      "covered_unit_pct": 40.29506305118272
+    },
+    {
+      "analysis": "Match threshold",
+      "setting": "Match ≤20 m, local coverage 25 m",
+      "matched_images": 105764,
+      "covered_length_km": 185.61019081234974,
+      "coverage_pct": 41.86036667627308,
+      "covered_unit_pct": 41.560207698013684
+    },
+    {
+      "analysis": "Match threshold",
+      "setting": "Match ≤30 m, local coverage 25 m",
+      "matched_images": 108852,
+      "covered_length_km": 186.8131311768768,
+      "coverage_pct": 42.13166387460256,
+      "covered_unit_pct": 41.82601170361823
+    },
+    {
+      "analysis": "Local distance",
+      "setting": "Match ≤20 m, local coverage 15 m",
+      "matched_images": 105764,
+      "covered_length_km": 168.77368134592234,
+      "coverage_pct": 38.063255877945615,
+      "covered_unit_pct": 37.71738234566884
+    },
+    {
+      "analysis": "Local distance",
+      "setting": "Match ≤20 m, local coverage 25 m",
+      "matched_images": 105764,
+      "covered_length_km": 185.61019081234974,
+      "coverage_pct": 41.86036667627308,
+      "covered_unit_pct": 41.560207698013684
+    },
+    {
+      "analysis": "Local distance",
+      "setting": "Match ≤20 m, local coverage 50 m",
+      "matched_images": 105764,
+      "covered_length_km": 217.3621991447668,
+      "coverage_pct": 49.02134585357922,
+      "covered_unit_pct": 48.65037501030248
+    },
+    {
+      "analysis": "Ambiguity check",
+      "setting": "Match ≤20 m, local 25 m, exclude near ties",
+      "matched_images": 88331,
+      "covered_length_km": 177.85124906039636,
+      "coverage_pct": 40.11050506934776,
+      "covered_unit_pct": 39.7119426357867
+    }
+  ],
+  "grid_summary": [
+    {
+      "statistic": "Minimum",
+      "image_count": 0.0,
+      "image_density_per_km2": 0.0,
+      "eligible_street_length_km": 0.017697765455621538,
+      "street_coverage_pct": 2.3571065450658444,
+      "uncovered_street_km_per_km2": 0.0
+    },
+    {
+      "statistic": "25th percentile",
+      "image_count": 535.5,
+      "image_density_per_km2": 3397.6347417159127,
+      "eligible_street_length_km": 3.2490740482884473,
+      "street_coverage_pct": 32.104054699256665,
+      "uncovered_street_km_per_km2": 7.800930363309064
+    },
+    {
+      "statistic": "Median",
+      "image_count": 1027.0,
+      "image_density_per_km2": 5452.615703172625,
+      "eligible_street_length_km": 5.995548697323706,
+      "street_coverage_pct": 47.76555178788893,
+      "uncovered_street_km_per_km2": 14.980655579346012
+    },
+    {
+      "statistic": "75th percentile",
+      "image_count": 1612.5,
+      "image_density_per_km2": 8411.696769847405,
+      "eligible_street_length_km": 7.286937480993068,
+      "street_coverage_pct": 65.84642385778626,
+      "uncovered_street_km_per_km2": 18.907455193616467
+    },
+    {
+      "statistic": "Maximum",
+      "image_count": 5838.0,
+      "image_density_per_km2": 58473.18464333277,
+      "eligible_street_length_km": 9.562863436803157,
+      "street_coverage_pct": 100.00000000000001,
+      "uncovered_street_km_per_km2": 31.010058983257863
+    }
+  ],
+  "quality_control_summary": [
+    {
+      "category": "Original manifest image records",
+      "count": 123907,
+      "definition": "All rows in the pinned raw manifest."
+    },
+    {
+      "category": "Existing GeoAI quality labels available",
+      "count": 123593,
+      "definition": "Rows with the repository's descriptions/geoai/v1 usable field."
+    },
+    {
+      "category": "Confirmed usable",
+      "count": 116473,
+      "definition": "Existing usable=true label. No additional threshold applied."
+    },
+    {
+      "category": "Explicitly excluded",
+      "count": 7120,
+      "definition": "Existing usable=false label."
+    },
+    {
+      "category": "Quality status unknown",
+      "count": 314,
+      "definition": "No existing GeoAI usability label. Not assumed usable or unusable."
+    },
+    {
+      "category": "Confirmed usable in Fatih used in main analysis",
+      "count": 116464,
+      "definition": "Confirmed usable records within the current analysis boundary."
+    },
+    {
+      "category": "Explicitly excluded in Fatih",
+      "count": 7120,
+      "definition": "Existing usable=false records within the current analysis boundary."
+    },
+    {
+      "category": "Unknown quality in Fatih",
+      "count": 201,
+      "definition": "Not included because suitability is not confirmed."
+    }
+  ],
+  "quality_exclusion_reason_sets": [
+    {
+      "documented_issue_set": "[\"blur\", \"partial_view\"]",
+      "excluded_images": 3795,
+      "share_of_explicit_exclusions_pct": 53.300561797752806
+    },
+    {
+      "documented_issue_set": "[\"blur\"]",
+      "excluded_images": 917,
+      "share_of_explicit_exclusions_pct": 12.879213483146067
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"overexposure\"]",
+      "excluded_images": 714,
+      "share_of_explicit_exclusions_pct": 10.02808988764045
+    },
+    {
+      "documented_issue_set": "[\"overexposure\"]",
+      "excluded_images": 462,
+      "share_of_explicit_exclusions_pct": 6.48876404494382
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"overexposure\", \"partial_view\"]",
+      "excluded_images": 414,
+      "share_of_explicit_exclusions_pct": 5.814606741573034
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"occlusion\"]",
+      "excluded_images": 266,
+      "share_of_explicit_exclusions_pct": 3.735955056179775
+    },
+    {
+      "documented_issue_set": "[\"overexposure\", \"partial_view\"]",
+      "excluded_images": 151,
+      "share_of_explicit_exclusions_pct": 2.1207865168539324
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"partial_view\", \"underexposure\"]",
+      "excluded_images": 105,
+      "share_of_explicit_exclusions_pct": 1.4747191011235956
+    },
+    {
+      "documented_issue_set": "[\"partial_view\"]",
+      "excluded_images": 70,
+      "share_of_explicit_exclusions_pct": 0.9831460674157303
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"occlusion\", \"partial_view\"]",
+      "excluded_images": 49,
+      "share_of_explicit_exclusions_pct": 0.6882022471910112
+    },
+    {
+      "documented_issue_set": "[\"partial_view\", \"underexposure\"]",
+      "excluded_images": 30,
+      "share_of_explicit_exclusions_pct": 0.42134831460674155
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"occlusion\", \"overexposure\", \"partial_view\"]",
+      "excluded_images": 23,
+      "share_of_explicit_exclusions_pct": 0.32303370786516855
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"motion_artifacts\"]",
+      "excluded_images": 16,
+      "share_of_explicit_exclusions_pct": 0.2247191011235955
+    },
+    {
+      "documented_issue_set": "[\"occlusion\", \"partial_view\"]",
+      "excluded_images": 16,
+      "share_of_explicit_exclusions_pct": 0.2247191011235955
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"partial_view\", \"reflection\"]",
+      "excluded_images": 15,
+      "share_of_explicit_exclusions_pct": 0.21067415730337077
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"underexposure\"]",
+      "excluded_images": 13,
+      "share_of_explicit_exclusions_pct": 0.18258426966292135
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"none\"]",
+      "excluded_images": 10,
+      "share_of_explicit_exclusions_pct": 0.1404494382022472
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"occlusion\", \"overexposure\"]",
+      "excluded_images": 7,
+      "share_of_explicit_exclusions_pct": 0.09831460674157304
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"occlusion\", \"underexposure\"]",
+      "excluded_images": 7,
+      "share_of_explicit_exclusions_pct": 0.09831460674157304
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"motion\", \"overexposure\"]",
+      "excluded_images": 4,
+      "share_of_explicit_exclusions_pct": 0.056179775280898875
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"motion\", \"partial_view\"]",
+      "excluded_images": 4,
+      "share_of_explicit_exclusions_pct": 0.056179775280898875
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"none\", \"occlusion\"]",
+      "excluded_images": 4,
+      "share_of_explicit_exclusions_pct": 0.056179775280898875
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"overexposure\", \"partial_view\", \"underexposure\"]",
+      "excluded_images": 3,
+      "share_of_explicit_exclusions_pct": 0.042134831460674156
+    },
+    {
+      "documented_issue_set": "[\"none\", \"partial_view\"]",
+      "excluded_images": 3,
+      "share_of_explicit_exclusions_pct": 0.042134831460674156
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"low_light\", \"motion\"]",
+      "excluded_images": 2,
+      "share_of_explicit_exclusions_pct": 0.028089887640449437
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"motion_artifact\"]",
+      "excluded_images": 2,
+      "share_of_explicit_exclusions_pct": 0.028089887640449437
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"motion_blur\"]",
+      "excluded_images": 2,
+      "share_of_explicit_exclusions_pct": 0.028089887640449437
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"none\", \"partial_view\"]",
+      "excluded_images": 2,
+      "share_of_explicit_exclusions_pct": 0.028089887640449437
+    },
+    {
+      "documented_issue_set": "[\"occlusion\", \"overexposure\", \"partial_view\"]",
+      "excluded_images": 2,
+      "share_of_explicit_exclusions_pct": 0.028089887640449437
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"low_contrast\", \"motion_artifacts\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"motion\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"motion_artifact\", \"overexposure\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"motion_artifact\", \"partial_view\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"none\", \"occlusion\", \"overexposure\", \"partial_view\", \"underexposure\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"occlusion\", \"partial_view\", \"underexposure\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"blur\", \"partial_view\", \"raindrops\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"low_light\", \"partial_view\", \"reflection\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"none\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"occlusion\", \"partial_view\", \"underexposure\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"occlusion\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    },
+    {
+      "documented_issue_set": "[\"partial_view\", \"unknown\"]",
+      "excluded_images": 1,
+      "share_of_explicit_exclusions_pct": 0.014044943820224719
+    }
+  ]
+}

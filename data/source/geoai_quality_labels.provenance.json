@@ -1,0 +1,46 @@
+{
+  "extracted_at_utc": "2026-09-17T06:34:29.867592+00:00",
+  "dataset_revision": "250dbb1efb580653b98d153dbc77341555d5a258",
+  "analysis_layer": "descriptions/geoai/v1",
+  "selected_columns": [
+    "image_id",
+    "usable",
+    "parsed_json"
+  ],
+  "parts": [
+    {
+      "name": "part-00000.parquet",
+      "bytes": 106978242,
+      "lfs_sha256": "295af3d12420d2dc4887c5bd299c95f11b90edb05f046f2176aa192a8ab954db",
+      "url": "https://huggingface.co/datasets/yunusserhat/fatih/resolve/250dbb1efb580653b98d153dbc77341555d5a258/data/derived/descriptions/geoai/v1/part-00000.parquet",
+      "rows": 100000,
+      "remote_bytes": 106978242,
+      "selected_range_count": 3,
+      "selected_bytes": 41789028,
+      "schema": "image_id: large_string\nusable: bool\nparsed_json: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1940"
+    },
+    {
+      "name": "part-00001.parquet",
+      "bytes": 25321098,
+      "lfs_sha256": "8f7ed31bd190eece87032e25a73f5061e6bed65c118455d60ceea8f7e726b1ca",
+      "url": "https://huggingface.co/datasets/yunusserhat/fatih/resolve/250dbb1efb580653b98d153dbc77341555d5a258/data/derived/descriptions/geoai/v1/part-00001.parquet",
+      "rows": 23593,
+      "remote_bytes": 25321098,
+      "selected_range_count": 3,
+      "selected_bytes": 9881484,
+      "schema": "image_id: large_string\nusable: bool\nparsed_json: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1940"
+    }
+  ],
+  "output_rows": 123593,
+  "output_unique_image_ids": 123593,
+  "usable_true": 116473,
+  "usable_false": 7120,
+  "usable_missing": 0,
+  "parsed_quality_usable_true": 116473,
+  "parsed_quality_usable_false": 7120,
+  "direct_nested_usable_disagreement": 0,
+  "quality_parse_status_counts": {
+    "parsed": 123593
+  },
+  "output_sha256": "bb5392af402757bb7b93fc1c19a5850e724c6473cd07f3455969672342634576"
+}

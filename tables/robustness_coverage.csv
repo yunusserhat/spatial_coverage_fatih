@@ -1,0 +1,5 @@
+analysis,images,images_not_in_manifest,matched_images,covered_km,coverage_pct,network_km
+"Mapillary platform, all public images",124033.0,248.0,111838,187.83010808456032,42.36102103473809,
+"Mapillary platform, captured by 17 August 2025",124032.0,248.0,111837,187.83010808456032,42.36102103473809,
+Along-street or panoramic views only,105764.0,,86324,172.39961945517712,38.881007845844444,
+End-of-2019 OpenStreetMap network,,,106249,181.71487641212988,41.68545330617318,435.91915644400535
