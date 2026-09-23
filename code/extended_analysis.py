@@ -234,7 +234,8 @@ def study_area_figure(figures_dir: Path, admin_zip: Path, boundary_projected, st
     fatih.plot(ax=ax, facecolor="#B2182B", edgecolor="#6B0F19", linewidth=0.5)
     min_x, min_y, max_x, max_y = istanbul.total_bounds
     ax.set_xlim(min_x - 2000, max_x + 2000)
-    ax.set_ylim(min_y - 2000, max_y + 2000)
+    # Extra space above the northernmost point keeps the north arrow off the coastline.
+    ax.set_ylim(min_y - 2000, max_y + 19000)
     ax.set_aspect("equal")
     ax.set_axis_off()
     ax.set_title("(a)", loc="left", fontsize=9, fontweight="bold")
@@ -243,7 +244,12 @@ def study_area_figure(figures_dir: Path, admin_zip: Path, boundary_projected, st
         "Fatih", xy=(centre.x, centre.y), xytext=(centre.x - 16000, centre.y - 22000),
         fontsize=8, arrowprops={"arrowstyle": "-", "color": "#303030", "lw": 0.6},
     )
-    A.add_north_arrow(ax)
+    arrow_x = min_x + 6000
+    ax.annotate(
+        "", xy=(arrow_x, max_y + 13000), xytext=(arrow_x, max_y + 3000),
+        arrowprops={"arrowstyle": "-|>", "color": "#303030", "lw": 1.0},
+    )
+    ax.text(arrow_x, max_y + 14000, "N", ha="center", va="bottom", fontsize=8, fontweight="bold", color="#303030")
     x0, y0 = min_x + 4000, min_y + 3000
     for index, colour in enumerate(["#303030", "#FFFFFF"]):
         ax.add_patch(plt.Rectangle(
